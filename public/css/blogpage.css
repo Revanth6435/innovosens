@@ -1,0 +1,39 @@
+.blog-hero img
+{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    max-width: 1920px;
+}
+
+.blog-title
+{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: left;
+    max-width: 1920px;
+}
+
+.blog-content
+{
+    width: 75%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1920px;
+}
+
+.blog-content img
+{
+    width: 80%;
+    height: 40%;
+    object-fit: contain;
+    max-width: 1920px;
+}

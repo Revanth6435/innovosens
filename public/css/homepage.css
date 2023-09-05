@@ -1,0 +1,195 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--surface-card);
+}
+
+.hero video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.hero_container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10vh;
+}
+
+.award-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1920px;
+}
+
+.award-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.award-card img {
+    width: 8rem;
+    height: 8rem;
+    flex-shrink: 0;
+}
+
+.intro-app {
+    padding: 9rem 0 0 0;
+}
+
+.intro-app img {
+    width: 75%;
+    object-fit: cover;
+    height: 60vh;
+    max-height: 540px;
+    border-radius: 1rem;
+    border: 1px solid var(--surface-pagebg);
+    box-shadow: 0px 0px 30px 0px rgba(61, 192, 242, 0.05);
+    max-width: 1920px;
+}
+
+.feature-container {
+    width: 75%;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+}
+
+.feature-card {
+    width: calc(37.5% - 24px);
+    transition: 400ms all;
+}
+
+.feature-card img {
+    width: 2.5rem;
+}
+
+.intro-video {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 9rem 0rem;
+    max-width: 1920px;
+}
+
+.video {
+    width: 75%;
+    height: 50vh;
+    max-height: 720px;
+    border-radius: 1rem;
+    border: none;
+}
+
+.uses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1920px;
+}
+
+.gif-img {
+    width: calc(18.25% - 32px);
+    height: 24rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.modal p,
+.b2 {
+    color: var(--color-neutral-600);
+}
+
+/*   Animation   */
+
+/* ------ Award Card ------ */
+
+.award-card:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.award-card:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.award-card:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.award-card:nth-child(5) {
+    transition-delay: 800ms;
+}
+
+/* ------ Feature Card ------ */
+
+.feature-card:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.feature-card:nth-child(3) {
+    transition-delay: 400ms;
+}
+.feature-card:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+/* ------ Gif Card ------ */
+
+.gif-img:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.gif-img:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.gif-img:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.gif-img:nth-child(5) {
+    transition-delay: 800ms;
+}
+
+/* ------ Blog Cards ------ */
+
+.blogCard:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.blogCard:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.blogCard:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.blogCard:nth-child(5) {
+    transition-delay: 800ms;
+}

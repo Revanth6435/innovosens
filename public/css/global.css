@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    /* primitives */
+    --color-black: #101010;
+    --color-white: #ffffff;
+    --color-neutral-900: #0c0c0c;
+    --color-neutral-800: #191919;
+    --color-neutral-700: #262626;
+    --color-neutral-600: #333333;
+    --color-neutral-500: #646464;
+    --color-neutral-400: #8e9194;
+    --color-neutral-300: #888888;
+    --color-neutral-100: #d1d1d1;
+    --color-neutral-50: #f5f5f5;
+    --color-d_blue-900: #01131b;
+    --color-d_blue-800: #022637;
+    --color-d_blue-700: #043953;
+    --color-d_blue-600: #054c6f;
+    --color-d_blue-500: #006092;
+    --color-d_blue-400: #367ea1;
+    --color-d_blue-300: #659cb7;
+    --color-d_blue-200: #94bacd;
+    --color-d_blue-100: #c3d8e3;
+    --color-blue-900: #03232f;
+    --color-blue-800: #064760;
+    --color-blue-700: #096a90;
+    --color-blue-600: #096a90;
+    --color-blue-500: #0c8ec0;
+    --color-blue-300: #6acff5;
+    --color-blue-200: #98ddf8;
+    --color-blue-400: #3dc0f2;
+    --color-d_blue-50: #f2f7f9;
+    --color-neutral-200: #acacac;
+    --color-blue-100: #c5ecfb;
+    --color-blue-50: #f3fbfe;
+    --color-error: #eb5757;
+
+    /* tokens */
+    --surface-navbg: rgb(12, 12, 12, 0.75);
+    --surface-card: var(--color-neutral-800);
+    --surface-pagebg: var(--color-neutral-900);
+    --surface-button: var(--color-blue-400);
+    --surface-button-hover: var(--color-blue-500);
+    --surface-button-disabled: var(--color-neutral-700);
+    --surface-blue: var(--color-blue-500);
+    --surface-section: rgba(12, 12, 12, 0.4);
+
+    --element-icon-brand: var(--color-blue-400);
+    --element-bgline: var(--color-neutral-800);
+    --element-icon: var(--color-white);
+
+    --text-title: var(--color-white);
+    --text-subtitle: var(--color-neutral-50);
+    --text-body: var(--color-neutral-100);
+    --text-bodylink: var(--color-blue-500);
+    --text-b2: var(--color-neutral-200);
+    --text-caption: var(--color-neutral-300);
+    --text-navlinks: var(--color-white);
+    --text-navlinks-hover: var(--color-blue-500);
+}
+
+/* Text CSS */
+
+h1 {
+    /* Desktop/H1 */
+    font-family: "Exo 2", sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: auto;
+    margin: 0;
+    color: var(--text-title);
+}
+
+h2 {
+    /* Desktop/H2 */
+    font-family: "Exo 2", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.5rem;
+    margin: 0;
+    color: var(--text-title);
+}
+
+h3 {
+    /* Desktop/H3 */
+    font-family: "Exo 2", sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.5rem;
+    margin: 0;
+    color: var(--text-title);
+}
+
+h4 {
+    /* Desktop/H4 */
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 0;
+    color: var(--text-subtitle);
+}
+
+p {
+    /* Desktop/b1 */
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin: 0;
+    color: var(--text-body);
+}
+
+.b2 {
+    /* Desktop/b2 */
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: auto;
+    margin: 0;
+    color: var(--text-b2);
+}
+
+.caption {
+    /* Desktop/Caption */
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -0.36px;
+    margin: 0;
+    color: var(--text-caption);
+}
+
+.color-textlink {
+    /* Text with brand color */
+    color: var(--text-bodylink);
+}
+
+a {
+    /* Links */
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-decoration: none;
+    margin: 0;
+}
+
+.color-error {
+    color: var(--color-error);
+}
+
+/* Completed Body Section CSS */
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--surface-pagebg);
+}
+
+/* Section CSS*/
+
+.section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 9rem 0;
+    gap: 3rem;
+}
+
+/* Title section CSS for every section */
+
+.title {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1920px;
+}
+
+/*  Button CSS  */
+
+button {
+    padding: 0.5rem 1rem;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: auto;
+    cursor: pointer;
+    color: var(--button-text, #ffffff);
+    width: auto;
+    height: 2rem;
+}
+
+.secondary-btn {
+    background-color: #ccc;
+}
+
+.primary-btn {
+    background-color: #007bff;
+}
+
+/*classes for background*/
+
+.pat-bg {
+    background-image: url("/assets/section-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.email-bg {
+    background-image: url("/assets/email-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.full {
+    height: 100vh;
+    max-height: 1080px;
+}
+
+/*   Card CSS   */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+    text-align: left;
+    padding: 2rem;
+    gap: 1rem;
+    border-bottom: 2px solid var(--color-neutral-700);
+}
+
+.card:hover {
+    border-bottom: 2px solid var(--color-blue-500);
+}
+
+.card:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.card:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.card:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.card:nth-child(5) {
+    transition-delay: 800ms;
+}

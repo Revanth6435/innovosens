@@ -1,0 +1,64 @@
+.hero {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 100vh;
+}
+
+.hero-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 1920px;
+}
+
+.content {
+    gap: 1rem;
+    width: 75%;
+    padding-bottom: 9rem;
+    max-width: 1920px;
+}
+
+.tab {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-updates,
+.tab-general {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 2px solid var(--surface-card);
+    transition: 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-updates.active,
+.tab-general.active {
+    border-bottom: 2px solid var(--surface-blue);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

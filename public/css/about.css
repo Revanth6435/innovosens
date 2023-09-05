@@ -1,0 +1,101 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 1.5rem;
+    position: absolute;
+    max-width: 1920px;
+}
+
+.title img {
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
+}
+
+.intro video {
+    width: 75%;
+    height: 50vh;
+    border-radius: 1rem;
+    max-width: 1920px;
+}
+
+.team-container {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    max-width: 1920px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.team-card img {
+    max-width: 12rem;
+    max-width: 12rem;
+
+    min-width: 7rem;
+    min-height: 7rem;
+    object-fit: cover;
+}
+
+.awards-title {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1920px;
+}
+
+.awards-container {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    max-width: 1920px;
+}
+
+.awards-container img {
+    width: 9rem;
+    height: 9rem;
+}
+
+
+.awards-container img:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.awards-container img:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.awards-container img:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.awards-container img:nth-child(5) {
+    transition-delay: 800ms;
+}
