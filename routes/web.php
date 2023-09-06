@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\Admin\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,3 +42,15 @@ Route::get('/aboutus', function () {
 Route::get('/blogpage', function () {
     return view('blogpage');
 });
+
+
+//Admin Route
+Route::middleware(['auth','prevent-back-history'])->group(function () {
+    Route::get('dashboard',[AdminController::class,'index'])->name('dashboard');
+    Route::resource('/blogs',BlogController::class);
+});
+
+Route::get('logout',[AdminController::class,'logout']);
+Route::get('login',[AdminController::class,'login'])->name('login');
+Route::post('auth',[AdminController::class,'auth']);
+// Route::get('/register',[AdminController::class,'register']);
