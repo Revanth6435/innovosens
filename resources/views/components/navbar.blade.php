@@ -6,7 +6,7 @@
         </div>
 
         
-        <img src="assets/logo_nav.svg" alt="Logo">
+        <img src="{{asset('assets/logo_nav.svg')}}" alt="Logo">
         
         <div class="navbar-links">
         <a href="/blog">Latest News</a>

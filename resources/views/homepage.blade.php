@@ -161,9 +161,12 @@
                 and knowledge</p>
         </div>
         <div class="blog-container">
+            @foreach($blogs as $blog)
+            <x-blogCard image="{{$blog->image}}" id="{{$blog->id}}" title="{{$blog->title}}" short_desc="{{$blog->short_description}}"/>
+            @endforeach
+            {{-- <x-blogCard />
             <x-blogCard />
-            <x-blogCard />
-            <x-blogCard />
+            <x-blogCard /> --}}
 
         </div>
     </section>

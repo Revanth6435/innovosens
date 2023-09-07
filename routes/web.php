@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Admin\BlogController;
-use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,9 +18,7 @@ use App\Http\Controllers\Admin\AdminController;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/', [HomeController::class,'index']);
 
 Route::get('/technology', function () {
     return view('technology');
@@ -39,18 +36,8 @@ Route::get('/aboutus', function () {
     return view('about');
 });
 
-Route::get('/blogpage', function () {
-    return view('blogpage');
+Route::get('/blogpage/{id}', [HomeController::class,'blogpage']);
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
-
-
-//Admin Route
-Route::middleware(['auth','prevent-back-history'])->group(function () {
-    Route::get('dashboard',[AdminController::class,'index'])->name('dashboard');
-    Route::resource('/blogs',BlogController::class);
-});
-
-Route::get('logout',[AdminController::class,'logout']);
-Route::get('login',[AdminController::class,'login'])->name('login');
-Route::post('auth',[AdminController::class,'auth']);
-// Route::get('/register',[AdminController::class,'register']);
