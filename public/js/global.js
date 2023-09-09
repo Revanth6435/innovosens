@@ -51,8 +51,3 @@ window.addEventListener('load', () => {
 /* ------------ */
 
 
-
-/*  Carousel  JS   */
-
-
-

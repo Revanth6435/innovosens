@@ -23,10 +23,10 @@
             <source src="assets/bg_video02.mp4" type="video/mp4">
         </video>
         <div class="hero_container ">
-            <p class="slidedown">Welcome to the Future of Health Monitoring</p>
-            <h1 class="slidedown"><span class="color-textlink">MASTER YOUR METABOLISM</span></h1>
-            <p class="slidedown">We harness the power of cutting-edge technology, such as AI, data analytics, and sensor technology,
-                to develop state-of-the-art health monitoring solutions.</p>
+            <p class="slidedown">Welcome to Innovosens AB</p>
+            <h1 class="slidedown"><span class="color-textlink">WELLNESS AT YOUR PLAM</span></h1>
+            <p class="slidedown">Reach the unprecedented levels of performance, health and wellness goals from the
+                surface of your skin.</p>
         </div>
     </section>
 
@@ -73,9 +73,8 @@
     <section class="feature section full pat-bg ">
         <div class="title slidedown">
             <h2>Changing the Game: <span class="color-textlink">Sports & Health</span> 🏆🌿</h2>
-            <p>Discover the revolutionary SMASH system - Sweat Metabolite Analysis for Sports and Health, powered by
-                cutting-edge AI technology. Say goodbye to inconvenience and hello to seamless health monitoring with
-                SMASH.
+            <p>SMASH: Non-invasive health monitoring powered by AI. Track your fitness, nutrition, and disease risk with
+                a simple sweat test.
             </p>
         </div>
         <div class="feature-container">
@@ -127,7 +126,7 @@
                 the impact we're making, and how we're empowering individuals to take control of their health and
                 wellness.</p>
         </div>
-        
+
         <iframe class="video fade"
             src="https://www.youtube.com/embed/Yko3GMseY40?si=rhxwE9gFsoZjnymR&amp;controls=0&amp;start=3"></iframe>
     </section>
@@ -140,9 +139,7 @@
             <p>
                 At Innovosens, we are passionate about empowering individuals to live healthier and happier lives. With
                 our cutting-edge technology and innovative solutions, we are revolutionizing the way health is monitored
-                and managed. Explore our articals , our values, and our commitment to making a positive impact on the
-                world
-                of health and wellness.
+                and managed.
             </p>
         </div>
         <div class="uses-container">
@@ -158,11 +155,13 @@
             <h2>Join the Journey to a <span class="color-textlink">Healthier you</span></h2>
             <p>We provide personal insights that drive positive change, no matter your current fitness level. Our
                 mission is to empower everyone with the tools to create a healthier world — through activity, nutrition,
-                and knowledge</p>
+                and knowledge. Explore our articals , our values, and our commitment to making a positive impact on the
+                world of health and wellness.</p>
         </div>
         <div class="blog-container">
             @foreach($blogs as $blog)
-            <x-blogCard image="{{$blog->image}}" id="{{$blog->id}}" title="{{$blog->title}}" short_desc="{{$blog->short_description}}"/>
+            <x-blogCard image="{{$blog->image}}" id="{{$blog->id}}" title="{{$blog->title}}"
+                short_desc="{{$blog->short_description}}" />
             @endforeach
             {{-- <x-blogCard />
             <x-blogCard />

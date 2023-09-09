@@ -20,11 +20,11 @@
     <section class="hero">
         <img src="assets/tech-hero.webp" alt="">
         <div class="hero-container ">
-            <h4 class="slidedown">Experience the Power of our</h4>
+            <h4 class="slidedown">Introducing the world's first</h4>
             <h1 class="slidedown"><span class="color-textlink">AI-Powered SMASH</h1>
-            <p class="slidedown">Unlock your athletic potential with SMASH. Analyze glucose + lactate alongside diet and
-                exercise to
-                optimize performance. Harness the insights for peak athletic achievements.</p>
+            <p class="slidedown">Unlock your athletic potential with SMASH. Analyze glucose and lactate alongside diet
+                and
+                exercise to optimize performance. Harness the insights for peak athletic achievements.</p>
         </div>
     </section>
 
@@ -33,11 +33,13 @@
 
     <section class="breif section pat-bg ">
         <div class="title slidedown ">
-            <h3> <span class="color-textlink">Advanced Multi-parametric Analysis :</span>Advanced Multi-parametric
-                Analysis : Unlocking the Power of Glucose, Lactate, Ketones, and Hydration</h3>
+            <h3> <span class="color-textlink">Advanced multi-parametric analysis</span>
+                <br>
+                Unlocking the power of glucose, lactate, ketones, and hydration
+            </h3>
             <p>Harnessing the power of our proprietary algorithm, Innovosens has revolutionised data analysis within our
                 app. By conducting comprehensive analyses of multiple key parameters, we uncover valuable patterns and
-                draw meaningful conclusions to enhance your health and fitness journey. <br>
+                draw meaningful conclusions to enhance your wellness and fitness journey. <br><br>
                 Developed using real-time data gathered from athletes and fitness enthusiasts, our algorithm enables us
                 to observe and interpret data in various permutations and combinations. This empowers you with
                 unparalleled insights, guiding you towards optimal performance and well-being.</p>
@@ -46,7 +48,7 @@
 
     <section class="device section ">
         <div class="title slidedown">
-            <h3>Power of Innovation. <span class="color-textlink">SMASH</span></h3>
+            <h3>Power of innovation. <span class="color-textlink">SMASH</span></h3>
             <p>Unleash the power of SMASH and gain unprecedented insights into your health and performance.</p>
         </div>
 
@@ -54,18 +56,18 @@
         <div class="device-container">
             <div class="device-card card slidein">
                 <img src="assets/icons/multi-chat.svg" alt="">
-                <h4>Microfluidic Sweat Sensor</h4>
+                <h4>Microfluidic sweat sensor</h4>
                 <p class="b2">The non-invasive sensor detects and analyzes glucose, lactate, and more.</p>
             </div>
             <div class="device-card card slidein">
                 <img src="assets/icons/multi-chat.svg" alt="">
-                <h4>Electronic Reader</h4>
+                <h4>Electronic reader</h4>
                 <p class="b2">The portable device wirelessly communicates with the sensor for data collection.
                 </p>
             </div>
             <div class="device-card card slidein">
                 <img src="assets/icons/multi-chat.svg" alt="">
-                <h4>Mobile Application</h4>
+                <h4>Mobile application</h4>
                 <p class="b2">Access real-time data, detailed graphs, and analytics for personalized insights.
                 </p>
             </div>
@@ -74,13 +76,15 @@
 
     <section class="pointer section pat-bg">
         <div class="title slidedown">
-            <h3>Revolutionizing <span class="color-textlink">Health Monitoring</span></h3>
-            <p>A Unique Non-invasive method for key electrolyte monitoring + Glucose & Lactate</p>
+            <h3>Sweat is the new
+                <span class="color-textlink"> blood</span>
+            </h3>
+            <p>A Unique non-invasive method for key electrolyte monitoring. Glucose & Lactate using sweat</p>
         </div>
 
         <div class="pointer-container slidedown">
             <h4>
-                The Wearable <span class="color-error">Problem</span> We Fix.
+                The wearable <span class="color-error">problem</span> we fix.
             </h4>
             <div class="pointer-box">
                 <div class="pointer-card slidein">
@@ -103,7 +107,7 @@
         </div>
         <div class="pointer-container slidedown">
             <h4>
-                What Makes <span class="color-textlink">SMASH</span> Special
+                What makes <span class="color-textlink">SMASH</span> special
             </h4>
             <div class="pointer-box">
                 <div class="pointer-card slidein">
@@ -112,7 +116,7 @@
                 </div>
                 <div class="pointer-card slidein">
                     <img src="assets/icons/chart.svg" alt="">
-                    <p class="b2">Analysis of glucose, Lactate, and ketones</p>
+                    <p class="b2">Analysis of glucose, lactate, and ketones</p>
                 </div>
                 <div class="pointer-card slidein">
                     <img src="assets/icons/eye.svg" alt="">
@@ -130,8 +134,8 @@
 
     <section class="app section ">
         <div class="title slidedown">
-            <h3><span class="color-textlink">Enhancing</span> Athletic Performance</h3>
-            <p>Unlock your athletic potential with SMASH. Analyze glucose + lactate alongside diet and exercise to
+            <h3><span class="color-textlink">Enhancing</span> athletic performance</h3>
+            <p>Unlock your athletic potential with SMASH. Analyze glucose and lactate alongside diet and exercise to
                 optimize performance. Harness the insights for peak athletic achievements.</p>
         </div>
 
@@ -140,20 +144,20 @@
         <div class="app-container">
             <div class="app-card card slidein">
                 <img src="assets/icons/multi-chat.svg" alt="">
-                <h4>Glucose Tracking</h4>
-                <p class="b2">Track your glucose + lactate levels in real-time using our AI-powered sweat sensor.
-                    Stay informed about fluctuations and trends to effectively manage your blood sugar.
+                <h4>Glucose tracking</h4>
+                <p class="b2">Track your glucose and lactate levels in real-time using our AI-powered sweat sensor.
+                    Stay informed about fluctuations and trends to effectively manage your wellness.
                 </p>
             </div>
             <div class="app-card card slidein">
                 <img src="assets/icons/multi-chat.svg" alt="">
-                <h4>Lactate Monitoring</h4>
+                <h4>Lactate monitoring</h4>
                 <p class="b2">Track lactate levels during workouts and physical activities to optimize performance.
                     Adjust your exercise intensity based on lactate measurements for maximum results.</p>
             </div>
             <div class="app-card card slidein">
                 <img src="assets/icons/multi-chat.svg" alt="">
-                <h4>Real-Time Data</h4>
+                <h4>Real-time data</h4>
                 <p class="b2">Access real-time data & multiparametric measurements directly on your mobile device for
                     instant feedback.Stay connected to your health and wellness metrics anytime, anywhere with SMASH.
                 </p>
@@ -164,16 +168,15 @@
 
     <section class="imp section pat-bg">
         <div class="title slidedown">
-            <h3>Why Continuous Glucose Monitoring is Important for <br><span class="color-textlink">Fitness Enthusiasts
-                    and
-                    Athletes</span></h3>
+            <h3>Why continuous monitoring is important for <br><span class="color-textlink">fitness enthusiasts
+                    and athletes</span></h3>
             <p></p>
         </div>
 
         <div class="imp-container">
             <div class="imp-card card slidein">
                 <img src="assets/tech-gif01.gif" alt="">
-                <h4>Understanding Glucose, lactose and Exercise</h4>
+                <h4>Understanding glucose, lactose and exercise</h4>
                 <p class="b2">
                     Carbohydrates from food are converted into glucose, providing energy during physical activity.
                     Monitoring glucose levels with the SMASH device helps modify diet plans for maximum workout
@@ -182,14 +185,14 @@
             </div>
             <div class="imp-card card slidein">
                 <img src="assets/tech-gif02.gif" alt="">
-                <h4>Maximizing Workout Efficiency & Fitness levels</h4>
+                <h4>Maximizing workout efficiency & fitness levels</h4>
                 <p class="b2">
                     Continuous glucose monitoring offers insights into glucose response during workouts, allowing
                     individuals to optimize carbohydrate intake and enhance workout performance. </p>
             </div>
             <div class="imp-card card slidein">
                 <img src="assets/tech-gif03.gif" alt="">
-                <h4>Personalized Diet Plans for Peak Performance</h4>
+                <h4>Personalized diet plans for peak performance</h4>
                 <p class="b2">
                     Using data from continuous glucose monitoring, individuals can tailor their diet plans to meet
                     specific needs, optimising carbohydrate intake for improved fitness outcomes. </p>
@@ -201,9 +204,9 @@
         <img class="slidedown" src="assets/icons/device.svg" alt="">
         <div class="title slidedown">
             <p class="b2">
-                Multi-Platform Assistant: Simplifying Your Health Journey
+                Multi-Platform assistant: Simplifying your health journey
             </p>
-            <h3><span class="color-textlink">Connect. Track. Achieve. </span>
+            <h3><span class="color-textlink">Connect. Track. Achieve. </span> <br>
                 Experience the convenience of our
                 multi-platform assistant.
             </h3>
@@ -214,12 +217,12 @@
         </div>
     </section>
 
-    <section class="awards section pat-bg full">
+    <section class="awards section pat-bg ">
         <div class="title slidedown">
             <h3>
                 <span class="color-textlink">
-                    Spotlighting Our Achievements <br>
-                </span> Celebrating Recognition and Success
+                    Spotlighting our achievements <br>
+                </span> Celebrating recognition and success
             </h3>
             <p>
                 At Innovosens, our dedication to excellence has been acknowledged by the industry and beyond. We're
@@ -235,21 +238,6 @@
             <img class="award-card slidein" src="assets/award05.webp" alt="">
         </div>
     </section>
-    <section class="blog section full ">
-        <div class="title slidedown">
-            <h2>Join the Journey to a <span class="color-textlink">Healthier you</span></h2>
-            <p>We provide personal insights that drive positive change, no matter your current fitness level. Our
-                mission is to empower everyone with the tools to create a healthier world — through activity, nutrition,
-                and knowledge</p>
-        </div>
-        <div class="blog-container">
-            <x-blogCard />
-            <x-blogCard />
-            <x-blogCard />
-
-        </div>
-    </section>
-
     <x-email />
 
     <x-footer />
