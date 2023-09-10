@@ -20,7 +20,7 @@
     max-width: 1920px;
 }
 
-.title img {
+.start img {
     width: 9rem;
     height: 9rem;
     object-fit: cover;
@@ -61,20 +61,13 @@
     object-fit: cover;
 }
 
-.awards-title {
-    display: flex;
-    width: 75%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    max-width: 1920px;
-}
-
 .awards-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
     max-width: 1920px;
 }
 
@@ -82,7 +75,6 @@
     width: 9rem;
     height: 9rem;
 }
-
 
 .awards-container img:nth-child(2) {
     transition-delay: 200ms;
@@ -114,4 +106,32 @@
 
 .team-card:nth-child(5) {
     transition-delay: 800ms;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-container {
+        padding: 4rem 1rem;
+    }
+
+    .intro video {
+        width: 100%;
+        height: 50vh;
+        border-radius: 1rem;
+        border: none;
+    }
+
+    .team-card img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .awards-container {
+        gap: 1rem;
+        width: auto;
+    }
+
+    .awards-container img {
+        width: 96px;
+        height: 96px;
+    }
 }
