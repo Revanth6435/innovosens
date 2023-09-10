@@ -31,10 +31,12 @@
     </section>
 
     <section class="award section pat-bg   ">
-        <h2 class="slidedown title">
-            Awards <span class="color-textlink">Spotlight</span>
-        </h2>
-        <div class="award-container ">
+        <div class="title slidedown">
+            <h2>
+                Awards <span class="color-textlink">Spotlight</span>
+            </h2>
+        </div>
+        <div class="award-container">
             <div class="award-card slidein ">
                 <img src="assets/award01.webp" alt="">
                 <p class="caption">Awarded 2019</p>
@@ -58,7 +60,7 @@
         </div>
     </section>
 
-    <section class="intro-app section full ">
+    <section class="intro-app section ">
         <div class="title slidedown">
             <h2>Hit <span class="color-textlink ">goals</span>. Not the wall</h2>
             <p>
@@ -70,7 +72,7 @@
         <img class=" fade" src="assets/intro-img.webp" alt="">
     </section>
 
-    <section class="feature section full pat-bg ">
+    <section class="feature section pat-bg ">
         <div class="title slidedown">
             <h2>Changing the Game: <span class="color-textlink">Sports & Health</span> 🏆🌿</h2>
             <p>SMASH: Non-invasive health monitoring powered by AI. Track your fitness, nutrition, and disease risk with
@@ -116,7 +118,7 @@
         </div>
     </section>
 
-    <section class="intro-video section full ">
+    <section class="intro-video section">
         <div class="title slidedown">
             <h2>
                 <span class="color-textlink">Compact .</span> Yet potent
@@ -143,14 +145,14 @@
             </p>
         </div>
         <div class="uses-container">
-            <img class="gif-img slidein" src="assets/gif01.gif" alt="A man running in marathon">
-            <img class="gif-img slidein" src="assets/gif02.gif" alt="A women running on threadmill">
-            <img class="gif-img slidein" src="assets/gif03.gif" alt="A man running on threadmill">
-            <img class="gif-img slidein" src="assets/gif04.gif" alt="A women doing jumping jacks">
+            <img class="gif-img slidedown" src="assets/gif01.gif" alt="A man running in marathon">
+            <img class="gif-img slidedown" src="assets/gif02.gif" alt="A women running on threadmill">
+            <img class="gif-img slidedown" src="assets/gif03.gif" alt="A man running on threadmill">
+            <img class="gif-img slidedown" src="assets/gif04.gif" alt="A women doing jumping jacks">
         </div>
     </section>
 
-    <section class="blog section full ">
+    <section class="blog section">
         <div class="title slidedown">
             <h2>Join the Journey to a <span class="color-textlink">Healthier you</span></h2>
             <p>We provide personal insights that drive positive change, no matter your current fitness level. Our

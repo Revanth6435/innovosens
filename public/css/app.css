@@ -106,28 +106,6 @@ footer a:hover {
 
 /*-----------------------------------------*/
 
-/* Blog Section CSS*/
-
-.blog {
-    display: flex;
-    width: 100%;
-    padding: 9rem 0rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-}
-
-.blog-container {
-    width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    max-width: 1920px;
-}
-
 /*-----------------------------------------*/
 
 /* Blog Card CSS */
@@ -182,6 +160,13 @@ footer a:hover {
     color: var(--text-bodylink);
 }
 
+@media screen and (max-width: 767px) {
+    .blog-card{
+        width: 100%;
+    }
+    
+}
+
 /*-----------------------------------------*/
 
 /*  Email CSS  */
@@ -213,6 +198,26 @@ footer a:hover {
 
 .email-container h4 {
     width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+    .email{
+        padding: 4rem 1rem;
+    }
+    .email-container{
+        width: 75%;
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-container h4 {
+        width: auto;
+        text-align: center  ;
+    }
+    
 }
 
 /* ---------------------- */

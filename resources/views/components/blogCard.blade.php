@@ -1,4 +1,4 @@
-<div class="blog-card slidein">
+<div class="blog-card slidedown">
     <img src="{{Storage::url($image)}}" alt="">
     <div class="blog-card-text">
         <h4>{{$title}}</h4>

@@ -110,7 +110,7 @@ h4 {
 p {
     /* Desktop/b1 */
     font-family: "Work Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.75rem;
     margin: 0;
@@ -120,7 +120,7 @@ p {
 .b2 {
     /* Desktop/b2 */
     font-family: "Work Sans", sans-serif;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: auto;
     margin: 0;
@@ -182,7 +182,7 @@ body {
     align-content: center;
     justify-content: center;
     width: 100vw;
-    padding: 9rem 0;
+    padding: 4.5rem 0;
     gap: 3rem;
 }
 
@@ -215,7 +215,6 @@ button {
     cursor: pointer;
     color: var(--button-text, #ffffff);
     width: auto;
-    height: 2rem;
 }
 
 .secondary-btn {
@@ -240,11 +239,6 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.full {
-    height: 100vh;
-    max-height: 1080px;
 }
 
 /*   Card CSS   */
@@ -279,4 +273,85 @@ button {
 
 .card:nth-child(5) {
     transition-delay: 800ms;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.25rem;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .b2 {
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+
+    .caption {
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+
+    a {
+        line-height: auto;
+    }
+
+    button {
+        height: auto;
+    }
+
+    .section {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 1rem;
+        gap: 2rem;
+    }
+
+    .title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: var(--surface-pagebg);
+        width: 100vw;
+    }
+
+    .pat-bg {
+        background-image: url("/assets/m-section-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }

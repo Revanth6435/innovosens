@@ -21,3 +21,18 @@
     opacity: 1;
     transform: translateX(0);
 }
+
+.scroll-container {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scrollRight 10s linear infinite;
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
