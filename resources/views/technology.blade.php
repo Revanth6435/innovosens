@@ -32,14 +32,14 @@
 
 
     <section class="breif section pat-bg ">
-        <div class="title slidedown ">
-            <h3> <span class="color-textlink">Advanced multi-parametric analysis</span>
+        <div class="title">
+            <h3 class="slidedown"> <span class="color-textlink">Advanced multi-parametric analysis</span>
                 <br>
                 Unlocking the power of glucose, lactate, ketones, and hydration
             </h3>
-            <p>Harnessing the power of our proprietary algorithm, Innovosens has revolutionised data analysis within our
+            <p class="slidedown">Harnessing the power of our proprietary algorithm, Innovosens has revolutionised data analysis within our
                 app. By conducting comprehensive analyses of multiple key parameters, we uncover valuable patterns and
-                draw meaningful conclusions to enhance your wellness and fitness journey. <br><br>
+                draw meanings conclusions to enhance your wellness and fitness journey. <br><br>
                 Developed using real-time data gathered from athletes and fitness enthusiasts, our algorithm enables us
                 to observe and interpret data in various permutations and combinations. This empowers you with
                 unparalleled insights, guiding you towards optimal performance and well-being.</p>
@@ -54,18 +54,18 @@
 
         <img class="fade" src="assets/device.webp" alt="">
         <div class="device-container">
-            <div class="device-card card slidein">
+            <div class="device-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Microfluidic sweat sensor</h4>
                 <p class="b2">The non-invasive sensor detects and analyzes glucose, lactate, and more.</p>
             </div>
-            <div class="device-card card slidein">
+            <div class="device-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Electronic reader</h4>
                 <p class="b2">The portable device wirelessly communicates with the sensor for data collection.
                 </p>
             </div>
-            <div class="device-card card slidein">
+            <div class="device-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Mobile application</h4>
                 <p class="b2">Access real-time data, detailed graphs, and analytics for personalized insights.
@@ -82,52 +82,50 @@
             <p>A Unique non-invasive method for key electrolyte monitoring. Glucose & Lactate using sweat</p>
         </div>
 
-        <div class="pointer-container slidedown">
-            <h4>
+            <h4 class="slidedown">
                 The wearable <span class="color-error">problem</span> we fix.
             </h4>
             <div class="pointer-box">
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/b-measure-ic.svg" alt="">
                     <p class="b2">No non-invasive method for real-time blood sugar level measurement.</p>
                 </div>
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/chart-ic.svg" alt="">
                     <p class="b2">Limited options to track blood glucose, lactate, and other without pricking.</p>
                 </div>
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/analysis-ic.svg" alt="">
                     <p class="b2">Lack of solutions offering comprehensive analysis of glucose and lactate.</p>
                 </div>
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/data-ic.svg" alt="">
                     <p class="b2">Existing fitness trackers lack this data and analytical insights.</p>
                 </div>
             </div>
-        </div>
-        <div class="pointer-container slidedown">
-            <h4>
+
+            <h4 class="slidedown">
                 What makes <span class="color-textlink">SMASH</span> special
             </h4>
+
             <div class="pointer-box">
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/sensor.svg" alt="">
                     <p class="b2">Pain-free and non-invasive wearable sweat sensor.</p>
                 </div>
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/chart.svg" alt="">
                     <p class="b2">Analysis of glucose, lactate, and ketones</p>
                 </div>
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/eye.svg" alt="">
                     <p class="b2">Continuous monitoring with proprietary algorithm</p>
                 </div>
-                <div class="pointer-card slidein">
+                <div class="pointer-card slidedown">
                     <img src="assets/icons/multi-chat.svg" alt="">
                     <p class="b2">Real-time multiparametric measurements</p>
                 </div>
             </div>
-        </div>
     </section>
 
 
@@ -142,20 +140,20 @@
         <img src="assets/app.webp" class="fade" alt="">
 
         <div class="app-container">
-            <div class="app-card card slidein">
+            <div class="app-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Glucose tracking</h4>
                 <p class="b2">Track your glucose and lactate levels in real-time using our AI-powered sweat sensor.
                     Stay informed about fluctuations and trends to effectively manage your wellness.
                 </p>
             </div>
-            <div class="app-card card slidein">
+            <div class="app-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Lactate monitoring</h4>
                 <p class="b2">Track lactate levels during workouts and physical activities to optimize performance.
                     Adjust your exercise intensity based on lactate measurements for maximum results.</p>
             </div>
-            <div class="app-card card slidein">
+            <div class="app-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Real-time data</h4>
                 <p class="b2">Access real-time data & multiparametric measurements directly on your mobile device for
@@ -174,7 +172,7 @@
         </div>
 
         <div class="imp-container">
-            <div class="imp-card card slidein">
+            <div class="imp-card card slidedown">
                 <img src="assets/tech-gif01.gif" alt="">
                 <h4>Understanding glucose, lactose and exercise</h4>
                 <p class="b2">
@@ -183,14 +181,14 @@
                     efficiency.
                 </p>
             </div>
-            <div class="imp-card card slidein">
+            <div class="imp-card card slidedown">
                 <img src="assets/tech-gif02.gif" alt="">
                 <h4>Maximizing workout efficiency & fitness levels</h4>
                 <p class="b2">
                     Continuous glucose monitoring offers insights into glucose response during workouts, allowing
                     individuals to optimize carbohydrate intake and enhance workout performance. </p>
             </div>
-            <div class="imp-card card slidein">
+            <div class="imp-card card slidedown">
                 <img src="assets/tech-gif03.gif" alt="">
                 <h4>Personalized diet plans for peak performance</h4>
                 <p class="b2">
@@ -202,15 +200,15 @@
 
     <section class="compatibility section ">
         <img class="slidedown" src="assets/icons/device.svg" alt="">
-        <div class="title slidedown">
-            <p class="b2">
+        <div class="title">
+            <p class="b2 slidedown">
                 Multi-Platform assistant: Simplifying your health journey
             </p>
-            <h3><span class="color-textlink">Connect. Track. Achieve. </span> <br>
+            <h3 class="slidedown"><span class="color-textlink">Connect. Track. Achieve. </span> <br>
                 Experience the convenience of our
                 multi-platform assistant.
             </h3>
-            <p>
+            <p class="slidedown">
                 Our app is a multi-platform assistant that works with most devices. It allows you to measure parameters
                 and input data manually. You can then export the data as a CSV file for use in programs like MS Excel.
             </p>

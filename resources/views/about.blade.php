@@ -35,7 +35,7 @@
 
     <section class="start section pat-bg ">
         <div class="title">
-            <img src="assets/award01.webp" class="slidein" alt="">
+            <img src="assets/award01.webp" class="slidedown" alt="">
             <h2 class="slidedown">Our <span class="color-textlink">start </span></h2>
             <p class="slidedown">Innovosens was founded by a team of passionate individuals who are committed to using
                 technology to improve people's lives. The team is led by <span class="color-textlink">Sirisha
@@ -73,29 +73,29 @@
         </div>
 
         <div class="team-container">
-            <div class="team-card slidein">
+            <div class="team-card slidedown">
                 <img src="assets/award01.webp" alt="">
                 <p>Sirisha Adimatyam</p>
                 <p class="body2">CEO & Founder</p>
             </div>
-            <div class="team-card slidein">
+            <div class="team-card slidedown">
                 <img src="assets/award01.webp" alt="">
                 <p>Poorna Dronamraju</p>
                 <p class="body2">Co-Founder</p>
             </div>
         </div>
         <div class="team-container">
-            <div class="team-card slidein">
+            <div class="team-card slidedown">
                 <img src="assets/award01.webp" alt="">
                 <p>Artur Aria</p>
                 <p class="body2">Board Member</p>
             </div>
-            <div class="team-card slidein">
+            <div class="team-card slidedown">
                 <img src="assets/award01.webp" alt="">
                 <p>Björn-Erik Erlandsson</p>
                 <p class="body2">Board Member</p>
             </div>
-            <div class="team-card slidein">
+            <div class="team-card slidedown">
                 <img src="assets/award01.webp" alt="">
                 <p>Sharok Kimiaei</p>
                 <p class="body2">Board Member</p>
@@ -118,11 +118,11 @@
             </p>
         </div>
         <div class="awards-container">
-            <img src="assets/award01.webp" class="slidein" alt="">
-            <img src="assets/award02.webp" class="slidein" alt="">
-            <img src="assets/award03.webp" class="slidein" alt="">
-            <img src="assets/award04.webp" class="slidein" alt="">
-            <img src="assets/award05.webp" class="slidein" alt="">
+            <img src="assets/award01.webp" class="slidedown" alt="">
+            <img src="assets/award02.webp" class="slidedown" alt="">
+            <img src="assets/award03.webp" class="slidedown" alt="">
+            <img src="assets/award04.webp" class="slidedown" alt="">
+            <img src="assets/award05.webp" class="slidedown" alt="">
         </div>
     </section>
 

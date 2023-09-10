@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    background-color: var(--surface-card);
 }
 
 .hero img {
@@ -26,11 +27,6 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 10vh;
-}
-
-.breif
-{
-    padding: 0 9rem;
 }
 
 .device-container {
@@ -160,25 +156,14 @@
     height: 6rem;
 }
 
-.awards {
-    display: flex;
-    padding: 9rem 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    width: 100%;
-    background: linear-gradient(
-        180deg,
-        rgba(12, 12, 12, 0) 30%,
-        rgb(2, 38, 55, 1) 100%
-    );
-}
-
 .awards-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1920px;
 }
 
 .awards-container img {
@@ -220,8 +205,7 @@
     transition-delay: 800ms;
 }
 
-
-/*  Award section  */ 
+/*  Award section  */
 .award-card:nth-child(2) {
     transition-delay: 200ms;
 }
@@ -238,3 +222,85 @@
     transition-delay: 800ms;
 }
 
+@media screen and (max-width: 767px) {
+    .breif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: auto;
+    }
+
+    .device-container {
+        width: 100%;
+    }
+
+    .device-card {
+        width: 100%;
+    }
+
+    .device img {
+        width: 100%;
+        object-fit: cover;
+        max-height: 540px;
+    }
+
+    .device-card img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .pointer-card {
+        width: 100%;
+        height: auto;
+        align-self: stretch;
+    }
+
+    .pointer {
+        gap: 2rem;
+    }
+
+    .app img {
+        width: 100%;
+        object-fit: cover;
+        max-height: 540px;
+    }
+
+    .app-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app-card {
+        width: 100%;
+    }
+
+    .app-card img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .imp-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imp-card {
+        width: 100%;
+    }
+
+    .awards-container
+    {
+        gap: 1rem;
+        width: auto;
+    }
+
+    .awards-container img{
+        width: 96px;
+        height: 96px;
+    }
+}
+
+        

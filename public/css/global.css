@@ -354,4 +354,8 @@ button {
         background-repeat: no-repeat;
         background-position: center;
     }
+    .card {
+        width: 100%;
+        padding: 1rem 0;
+    }
 }

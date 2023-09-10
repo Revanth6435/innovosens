@@ -99,3 +99,19 @@
 .awards-container img:nth-child(5) {
     transition-delay: 800ms;
 }
+
+.team-card:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.team-card:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.team-card:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.team-card:nth-child(5) {
+    transition-delay: 800ms;
+}
