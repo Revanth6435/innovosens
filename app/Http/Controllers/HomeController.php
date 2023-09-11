@@ -15,7 +15,15 @@ class HomeController extends Controller
     public function index()
     {
         $blogs = Blog::all();
+        // return $blogs;
         return view('homepage',compact('blogs'));
+    }
+
+    public function blog()
+    {
+        $blogs = Blog::all();
+        // return $blogs;
+        return view('blog',compact('blogs'));
     }
 
     public function blogpage($id){

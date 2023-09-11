@@ -24,9 +24,7 @@ Route::get('/technology', function () {
     return view('technology');
 });
 
-Route::get('/blog', function () {
-    return view('blog');
-});
+Route::get('/blog', [HomeController::class,'blog']);
 
 Route::get('/partner', function () {
     return view('partner');

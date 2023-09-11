@@ -53,19 +53,27 @@
         </div>
 
         <div class="tab-content tab-updates active" id="updates">
+            @foreach($blogs as $blog)
+            <x-blogCard image="{{$blog->image}}" id="{{$blog->id}}" title="{{$blog->title}}"
+                short_desc="{{$blog->short_description}}" />
+            @endforeach
+            {{-- <x-blogCard />
             <x-blogCard />
-            <x-blogCard />
-            <x-blogCard />
+            <x-blogCard /> --}}
             <!-- Add more update posts here -->
         </div>
 
         <div class="tab-content tab-general" id="general">
+            {{-- <x-blogCard />
             <x-blogCard />
             <x-blogCard />
             <x-blogCard />
             <x-blogCard />
-            <x-blogCard />
-            <x-blogCard />
+            <x-blogCard /> --}}
+            @foreach($blogs as $blog)
+            <x-blogCard image="{{$blog->image}}" id="{{$blog->id}}" title="{{$blog->title}}"
+                short_desc="{{$blog->short_description}}" />
+            @endforeach
         </div>
     </section>
 
