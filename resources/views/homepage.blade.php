@@ -94,8 +94,8 @@
                     Personalized Health Management
                 </h4>
                 <p class="b2">
-                    Monitor your glucose and lactate levels without the hassle of pricking your fingers or inserting
-                    sensors under your skin. </p>
+                    Designed to cater to you unique Health needs providing personalized health management for optimal
+                    wellbeing. </p>
             </div>
             <div class="feature-card card slidedown">
                 <img src="assets/icons/eye.svg" alt="">
@@ -103,8 +103,8 @@
                     Glucose & Lactate Monitoring
                 </h4>
                 <p class="b2">
-                    SMASH is designed to cater to your unique health needs, providing personalized health management for
-                    optimal well-being. </p>
+                    Pain free and prick free tracking of Glucose, Lactate and other electrolytes from the surface of the
+                    skin </p>
             </div>
             <div class="feature-card card slidedown">
                 <img src="assets/icons/prime.svg" alt="">
@@ -157,7 +157,7 @@
             <h2>Join the Journey to a <span class="color-textlink">Healthier you</span></h2>
             <p>We provide personal insights that drive positive change, no matter your current fitness level. Our
                 mission is to empower everyone with the tools to create a healthier world — through activity, nutrition,
-                and knowledge. Explore our articals , our values, and our commitment to making a positive impact on the
+                and knowledge. Explore our articles , our values, and our commitment to making a positive impact on the
                 world of health and wellness.</p>
         </div>
         <div class="blog-container">

@@ -21,13 +21,10 @@
             <h2 class="slidedown">OUR <span class="color-textlink">ORIGIN</span> STORY</h2>
             <h4 class="slidedown">Innovation. Wellness. Technology.</h4>
             <p class="slidedown">At Innovosens, our founders embody the spirit of pushing boundaries, celebrating
-                achievements, learning
-                from setbacks, and making strides towards the future.</p>
-            <p class="slidedown">The Innovosens team is composed of experts in engineering, medicine, and business. They
-                are united by a
-                common goal: to make advanced multiparametric monitoring and personalized health and wellness management
-                accessible to everyone.</p>
-            <h4 class="slidedown">We are passionate about using technology to improve people's lives. We believe that
+                achievements, learning from setbacks, and making strides towards the future. The Innovosens team is
+                Comprises of of experts in Medical & wearable tech. They are united by a common goal: to make advanced
+                multiparametric monitoring and personalized wellness management accessible to everyone.</p>
+            <h4 class="slidedown">We are passionate about using technology to improve people's lives. <br>We believe that
                 our sensors have the
                 potential to make a real difference in the world</h4>
         </div>

@@ -35,11 +35,11 @@
         <div class="title">
             <h3 class="slidedown"> <span class="color-textlink">Advanced multi-parametric analysis</span>
                 <br>
-                Unlocking the power of glucose, lactate, ketones, and hydration
+                Unlocking the power of glucose, lactate and hydration
             </h3>
-            <p class="slidedown">Harnessing the power of our proprietary algorithm, Innovosens has revolutionised data analysis within our
-                app. By conducting comprehensive analyses of multiple key parameters, we uncover valuable patterns and
-                draw meanings conclusions to enhance your wellness and fitness journey. <br><br>
+            <p class="slidedown">Harnessing the power of our proprietary algorithm, Innovosens has revolutionized data
+                analysis within our app. By conducting comprehensive analyses of multiple key parameters, we uncover
+                valuable patterns and draw meanings conclusions to enhance your wellness and fitness journey. <br><br>
                 Developed using real-time data gathered from athletes and fitness enthusiasts, our algorithm enables us
                 to observe and interpret data in various permutations and combinations. This empowers you with
                 unparalleled insights, guiding you towards optimal performance and well-being.</p>
@@ -82,50 +82,50 @@
             <p>A Unique non-invasive method for key electrolyte monitoring. Glucose & Lactate using sweat</p>
         </div>
 
-            <h4 class="slidedown">
-                The wearable <span class="color-error">problem</span> we fix.
-            </h4>
-            <div class="pointer-box">
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/b-measure-ic.svg" alt="">
-                    <p class="b2">No non-invasive method for real-time blood sugar level measurement.</p>
-                </div>
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/chart-ic.svg" alt="">
-                    <p class="b2">Limited options to track blood glucose, lactate, and other without pricking.</p>
-                </div>
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/analysis-ic.svg" alt="">
-                    <p class="b2">Lack of solutions offering comprehensive analysis of glucose and lactate.</p>
-                </div>
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/data-ic.svg" alt="">
-                    <p class="b2">Existing fitness trackers lack this data and analytical insights.</p>
-                </div>
+        <h4 class="slidedown">
+            The wearable <span class="color-error">problem</span> we fix.
+        </h4>
+        <div class="pointer-box">
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/b-measure-ic.svg" alt="">
+                <p class="b2">No non-invasive method for real-time blood sugar level measurement.</p>
             </div>
-
-            <h4 class="slidedown">
-                What makes <span class="color-textlink">SMASH</span> special
-            </h4>
-
-            <div class="pointer-box">
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/sensor.svg" alt="">
-                    <p class="b2">Pain-free and non-invasive wearable sweat sensor.</p>
-                </div>
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/chart.svg" alt="">
-                    <p class="b2">Analysis of glucose, lactate, and ketones</p>
-                </div>
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/eye.svg" alt="">
-                    <p class="b2">Continuous monitoring with proprietary algorithm</p>
-                </div>
-                <div class="pointer-card slidedown">
-                    <img src="assets/icons/multi-chat.svg" alt="">
-                    <p class="b2">Real-time multiparametric measurements</p>
-                </div>
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/chart-ic.svg" alt="">
+                <p class="b2">Limited options to track blood glucose, lactate, and other without pricking.</p>
             </div>
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/analysis-ic.svg" alt="">
+                <p class="b2">Lack of solutions offering comprehensive analysis of glucose and lactate.</p>
+            </div>
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/data-ic.svg" alt="">
+                <p class="b2">Existing fitness trackers lack this data and analytical insights.</p>
+            </div>
+        </div>
+
+        <h4 class="slidedown">
+            What makes <span class="color-textlink">SMASH</span> special
+        </h4>
+
+        <div class="pointer-box">
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/sensor.svg" alt="">
+                <p class="b2">Pain-free and non-invasive wearable sweat sensor.</p>
+            </div>
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/chart.svg" alt="">
+                <p class="b2">Analysis of glucose, lactate, and ketones</p>
+            </div>
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/eye.svg" alt="">
+                <p class="b2">Continuous monitoring with proprietary algorithm</p>
+            </div>
+            <div class="pointer-card slidedown">
+                <img src="assets/icons/multi-chat.svg" alt="">
+                <p class="b2">Real-time multiparametric measurements</p>
+            </div>
+        </div>
     </section>
 
 
@@ -143,8 +143,8 @@
             <div class="app-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Glucose tracking</h4>
-                <p class="b2">Track your glucose and lactate levels in real-time using our AI-powered sweat sensor.
-                    Stay informed about fluctuations and trends to effectively manage your wellness.
+                <p class="b2">Track your glucose and lactate levels in real-time using our AI-powered App.
+                    Stay informed about fluctuations and trends to effectively track your wellness.
                 </p>
             </div>
             <div class="app-card card slidedown">
@@ -157,7 +157,7 @@
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Real-time data</h4>
                 <p class="b2">Access real-time data & multiparametric measurements directly on your mobile device for
-                    instant feedback.Stay connected to your health and wellness metrics anytime, anywhere with SMASH.
+                    instant feedback. Stay connected to your health and wellness metrics anytime, anywhere with SMASH.
                 </p>
             </div>
         </div>
@@ -245,4 +245,4 @@
 <script src="js/global.js"></script>
 <script src="js/animate.js"></script>
 
-</html>
+</html>s
