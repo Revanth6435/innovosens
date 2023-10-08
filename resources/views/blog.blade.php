@@ -54,8 +54,10 @@
 
         <div class="tab-content tab-updates active" id="updates">
             @foreach($blogs as $blog)
+            @if($blog->category == 'updates')
             <x-blogCard image="{{$blog->image}}" id="{{$blog->id}}" title="{{$blog->title}}"
                 short_desc="{{$blog->short_description}}" />
+            @endif
             @endforeach
             {{-- <x-blogCard />
             <x-blogCard />
@@ -71,8 +73,10 @@
             <x-blogCard />
             <x-blogCard /> --}}
             @foreach($blogs as $blog)
+            @if($blog->category == 'general')
             <x-blogCard image="{{$blog->image}}" id="{{$blog->id}}" title="{{$blog->title}}"
                 short_desc="{{$blog->short_description}}" />
+            @endif
             @endforeach
         </div>
     </section>
