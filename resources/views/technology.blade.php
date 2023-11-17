@@ -31,7 +31,7 @@
     <x-carousel />
 
 
-    <section class="breif section pat-bg ">
+    <section class="breif section ">
         <div class="title">
             <h3 class="slidedown"> <span class="color-textlink">Advanced multi-parametric analysis</span>
                 <br>
@@ -39,14 +39,14 @@
             </h3>
             <p class="slidedown">Harnessing the power of our proprietary algorithm, Innovosens has revolutionized data
                 analysis within our app. By conducting comprehensive analyses of multiple key parameters, we uncover
-                valuable patterns and draw meanings conclusions to enhance your wellness and fitness journey. <br><br>
+                valuable patterns and draw meaningful conclusions to enhance your wellness and fitness journey. <br><br>
                 Developed using real-time data gathered from athletes and fitness enthusiasts, our algorithm enables us
                 to observe and interpret data in various permutations and combinations. This empowers you with
                 unparalleled insights, guiding you towards optimal performance and well-being.</p>
         </div>
     </section>
 
-    <section class="device section ">
+    <section class="device section pat-bg">
         <div class="title slidedown">
             <h3>Power of innovation. <span class="color-textlink">SMASH</span></h3>
             <p>Unleash the power of SMASH and gain unprecedented insights into your health and performance.</p>
@@ -74,12 +74,12 @@
         </div>
     </section>
 
-    <section class="pointer section pat-bg">
+    <section class="pointer section ">
         <div class="title slidedown">
             <h3>Sweat is the new
                 <span class="color-textlink"> blood</span>
             </h3>
-            <p>A Unique non-invasive method for key electrolyte monitoring. Glucose & Lactate using sweat</p>
+            <p>A unique non-invasive method for key electrolyte monitoring glucose and lactate using sweat</p>
         </div>
 
         <h4 class="slidedown">
@@ -130,7 +130,7 @@
 
 
 
-    <section class="app section ">
+    <section class="app section pat-bg">
         <div class="title slidedown">
             <h3><span class="color-textlink">Enhancing</span> athletic performance</h3>
             <p>Unlock your athletic potential with SMASH. Analyze glucose and lactate alongside diet and exercise to
@@ -143,7 +143,7 @@
             <div class="app-card card slidedown">
                 <img src="assets/icons/multi-chat.svg" alt="">
                 <h4>Glucose tracking</h4>
-                <p class="b2">Track your glucose and lactate levels in real-time using our AI-powered App.
+                <p class="b2">Track your glucose and lactate levels in real-time using our AI-powered app.
                     Stay informed about fluctuations and trends to effectively track your wellness.
                 </p>
             </div>
@@ -164,7 +164,7 @@
 
     </section>
 
-    <section class="imp section pat-bg">
+    <section class="imp section">
         <div class="title slidedown">
             <h3>Why continuous monitoring is important for <br><span class="color-textlink">fitness enthusiasts
                     and athletes</span></h3>
@@ -193,12 +193,12 @@
                 <h4>Personalized diet plans for peak performance</h4>
                 <p class="b2">
                     Using data from continuous glucose monitoring, individuals can tailor their diet plans to meet
-                    specific needs, optimising carbohydrate intake for improved fitness outcomes. </p>
+                    specific needs, optimizing carbohydrate intake for improved fitness outcomes. </p>
             </div>
         </div>
     </section>
 
-    <section class="compatibility section ">
+    <section class="compatibility section pat-bg">
         <img class="slidedown" src="assets/icons/device.svg" alt="">
         <div class="title">
             <p class="b2 slidedown">
@@ -215,7 +215,7 @@
         </div>
     </section>
 
-    <section class="awards section pat-bg ">
+    <section class="awards section">
         <div class="title slidedown">
             <h3>
                 <span class="color-textlink">

@@ -20,19 +20,16 @@
         <div class="hero-container ">
             <h2 class="slidedown">OUR <span class="color-textlink">ORIGIN</span> STORY</h2>
             <h4 class="slidedown">Innovation. Wellness. Technology.</h4>
-            <p class="slidedown">At Innovosens, our founders embody the spirit of pushing boundaries, celebrating
-                achievements, learning from setbacks, and making strides towards the future. The Innovosens team is
-                Comprises of of experts in Medical & wearable tech. They are united by a common goal: to make advanced
-                multiparametric monitoring and personalized wellness management accessible to everyone.</p>
+            <p class="slidedown">At Innovosens, our founders embody the spirit of pushing boundaries, celebrating achievements, learning from setbacks, and making strides towards the future. The Innovosens team is comprised of experts in Medical & wearable tech. They are united by a common goal: to make advanced multiparametric monitoring and personalized wellness management accessible to everyone.</p>
             <h4 class="slidedown">We are passionate about using technology to improve people's lives. <br>We believe that
                 our sensors have the
-                potential to make a real difference in the world</h4>
+                potential to make a real difference in the world.</h4>
         </div>
     </section>
 
     <section class="start section pat-bg ">
         <div class="title">
-            <img src="assets/award01.webp" class="slidedown" alt="">
+            <img src="assets/footerLogo.png" class="slidedown" alt="">
             <h2 class="slidedown">Our <span class="color-textlink">start </span></h2>
             <p class="slidedown">Innovosens was founded by a team of passionate individuals who are committed to using
                 technology to improve people's lives. The team is led by <span class="color-textlink">Sirisha
@@ -59,7 +56,7 @@
 
 
     </section>
-
+    <!--
     <section class="team section pat-bg  full">
         <div class="title slidedown">
             <h2>Meet the <Span class="color-textlink">team</Span></h2>
@@ -100,6 +97,7 @@
         </div>
 
     </section>
+    --> 
 
     <section class="awards section full">
         <div class="title slidedown">

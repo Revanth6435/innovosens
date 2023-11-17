@@ -76,6 +76,7 @@
 .feature-card {
     width: calc(37.5% - 24px);
     transition: 400ms all;
+    max-width: 640px;
 }
 
 .feature-card img {
@@ -208,12 +209,13 @@
 
     .feature-container {
         width: 100%;
+        flex-wrap: none;
+        flex-direction: column;
     }
 
     .feature-card {
-        width: 100%;
+        min-width: 320px;
     }
-
     .video {
         width: 100%;
         height: 50vh;

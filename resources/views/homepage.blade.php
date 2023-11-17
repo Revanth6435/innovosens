@@ -24,13 +24,13 @@
         </video>
         <div class="hero_container ">
             <p class="slidedown">Welcome to Innovosens AB</p>
-            <h1 class="slidedown"><span class="color-textlink">WELLNESS AT YOUR PLAM</span></h1>
-            <p class="slidedown">Reach the unprecedented levels of performance, health and wellness goals from the
+            <h1 class="slidedown"><span class="color-textlink">WELLNESS IN YOUR PALM</span></h1>
+            <p class="slidedown">Reach unprecedented levels of performance, health and wellness goals from the
                 surface of your skin.</p>
         </div>
     </section>
 
-    <section class="award section pat-bg   ">
+    <section class="award section pat-bg">
         <div class="title slidedown">
             <h2>
                 Awards <span class="color-textlink">Spotlight</span>
@@ -75,7 +75,7 @@
     <section class="feature section pat-bg ">
         <div class="title slidedown">
             <h2>Changing the Game: <span class="color-textlink">Sports & Health</span> 🏆🌿</h2>
-            <p>SMASH: Non-invasive health monitoring powered by AI. Track your fitness, nutrition, and disease risk with
+            <p>SMASH: Non-invasive health monitoring powered by AI. Track your fitness and nutrition with
                 a simple sweat test.
             </p>
         </div>
@@ -94,7 +94,7 @@
                     Personalized Health Management
                 </h4>
                 <p class="b2">
-                    Designed to cater to you unique Health needs providing personalized health management for optimal
+                    Designed to cater to you unique health needs providing personalized health management for optimal
                     wellbeing. </p>
             </div>
             <div class="feature-card card slidedown">
@@ -154,10 +154,10 @@
 
     <section class="blog section">
         <div class="title slidedown">
-            <h2>Join the Journey to a <span class="color-textlink">Healthier you</span></h2>
+            <h2>Join the Journey to a <span class="color-textlink">healthier you</span></h2>
             <p>We provide personal insights that drive positive change, no matter your current fitness level. Our
                 mission is to empower everyone with the tools to create a healthier world — through activity, nutrition,
-                and knowledge. Explore our articles , our values, and our commitment to making a positive impact on the
+                and knowledge. Explore our articles, our values, and our commitment to making a positive impact on the
                 world of health and wellness.</p>
         </div>
         <div class="blog-container">
